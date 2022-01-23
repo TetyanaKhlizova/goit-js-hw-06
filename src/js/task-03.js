@@ -19,10 +19,19 @@ const images = [
 
 // Все элементы галереи должны добавляться в DOM за одну операцию вставки.
 // Добавь минимальное оформление галереи флексбоксами или гридами через CSS классы.
-const listGallery = document.querySelector('ul.gallery');
-const listImage = images.reduce((acc, { url, alt }) => { 
 
+
+
+
+
+const listGallery = document.querySelector('ul.gallery');
+
+
+const listImage = images.reduce((acc, { url, alt }) => { 
+ 
   acc += `<li class="gallery_item"><img src='${url}', alt='${alt}'></li>`;
+
+
   return acc;
 },'');
 

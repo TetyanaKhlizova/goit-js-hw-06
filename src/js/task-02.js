@@ -12,6 +12,13 @@ const ingredients = [
 // Добавит название ингредиента как его текстовое содержимое.
 // Добавит элементу класс item.
 // После чего вставит все <li> за одну операцию в список ul.ingredients.
+
+
+
+
+
+
+
 const ingrListRef= document.querySelector('#ingredients');
 const ingrList = ingredients.map(item => { 
   const ingrItem = document.createElement('li');

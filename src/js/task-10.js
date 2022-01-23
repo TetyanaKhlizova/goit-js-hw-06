@@ -22,7 +22,7 @@
 
 
 
-
+// С этой задачей я еще не разобралась.
 // const valueToInput = document.querySelector('input');
 // const createBtn = document.querySelector('[data-create]');
 // const destroyBtn = document.querySelector('[data-destroy]');

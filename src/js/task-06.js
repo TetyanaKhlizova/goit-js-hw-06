@@ -8,6 +8,7 @@
 // />
 // Сколько символов должно быть в инпуте, указывается в его атрибуте data-length.
 // Если введено подходящее количество символов, то border инпута становится зелёным, если неправильное - красным.
+
 const input = document.querySelector('#validation-input');
 const inputValidation = input.dataset.length;
 
