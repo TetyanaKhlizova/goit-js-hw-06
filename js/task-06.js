@@ -13,7 +13,7 @@ const input = document.querySelector('#validation-input');
 const inputValidation = input.dataset.length;
 
 const borderColor = (event) => {
-    return event.target.value.length == inputValidation ?
+    return event.target.value.length === Number(inputValidation) ?
         input.setAttribute('class', 'valid') :
         input.setAttribute('class', 'invalid');
 }
